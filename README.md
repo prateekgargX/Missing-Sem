@@ -1,4 +1,4 @@
-# Shell Scripting
+# [Shell Scripting](https://missing.csail.mit.edu/2020/shell-tools/ "missing-semester")
 
 1. Read man ls and write an ls command that lists files in the following manner
 
