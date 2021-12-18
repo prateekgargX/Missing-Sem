@@ -7,8 +7,8 @@ Sizes are listed in human readable format (e.g. 454M instead of 454279954)
 Files are ordered by recency  
 Output is colorized  
 
-```sh
- ls -laht --color
+```bash
+$ ls -laht --color
 ```
 
 2.Write bash functions marco and polo that do the following. 
@@ -22,12 +22,14 @@ For ease of debugging you can write the code in a file marco.sh and
 marco(){
 	mypath=$(pwd)
 }
-```
-
-```bash
 polo(){
 	cd $mypath
 }
+```
+
+To load:
+```bash
+$ source marcopolo.sh 
 ```
 
 3. Say you have a command that fails rarely. In order to debug it you need to capture its output but it can be time consuming to get a failure run. Write a bash script that runs the following script until it fails and captures its standard output and error streams to files and prints everything at the end. Bonus points if you can also report how many runs it took for the script to fail.
