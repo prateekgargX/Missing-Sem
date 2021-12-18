@@ -1,12 +1,10 @@
 # Shell Scripting
 
-1.Read man ls and write an ls command that lists files in the following manner
-
-    Includes all files, including hidden files
-    Sizes are listed in human readable format (e.g. 454M instead of 454279954)
-    Files are ordered by recency
-    Output is colorized
-
+1. Read man ls and write an ls command that lists files in the following manner
+>_Includes all files, including hidden files
+>Sizes are listed in human readable format (e.g. 454M instead of 454279954)
+>Files are ordered by recency
+>Output is colorized_
 
 ```sh
  ls -laht --color
