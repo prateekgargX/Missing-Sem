@@ -1,18 +1,19 @@
 #!/usr/bin/env bash
 
 i=1
-./rand.sh >out.txt 2>err.txt
+./rand.sh >out.log 2>err.log
 
-if [[ $? -eq 1 ]]; then
-	echo "Number of runs $i"
-	cat ./out.txt
-	cat ./err.txt
-else
-	./rand.sh >>out.txt 2>err.txt
+while [[ $? -ne 1 ]];
+do
 	((i++))
-fi
+	./rand.sh >>out.log 2>>err.log
+done
 
+echo "number of runs : $i"
 
-echo "Number of times it ran $i"
+cat out.log
+cat err.log
 
+rm out.*
+rm err.*
 
