@@ -1,4 +1,10 @@
->Additional files includes create-html.sh which store a function taking an integer argument to generate a directory structure having foo bar folders with a html file.
+>Additional files includes create-html.sh which store a function taking an integer argument to recursively 
+generate folders foo and bar with a html file.  
+To load function into the memory, use:
+
+```bash
+source ./create-html.sh
+```
 
 # [Shell Scripting](https://missing.csail.mit.edu/2020/shell-tools/ "missing-semester")
 
