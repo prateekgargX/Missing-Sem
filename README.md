@@ -1,3 +1,5 @@
+>Additional files includes create-html.sh which store a function taking an integer argument to generate a directory structure having foo bar folders with a html file.
+
 # [Shell Scripting](https://missing.csail.mit.edu/2020/shell-tools/ "missing-semester")
 
 1. Read man ls and write an ls command that lists files in the following manner
