@@ -77,3 +77,12 @@ To run
 ```bash
 $ ./test.sh script-to-tested.sh
 ```
+4.
+
+```bash
+$ find . -name "*.html" | xargs -d '\n' tar -czvf archive-name.tar.gz      
+```
+To extract the archive
+```bash
+$ tar -xzvf archive-name.tar.gz
+```
