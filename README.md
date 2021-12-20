@@ -83,7 +83,7 @@ To run
 ```bash
 $ ./test.sh script-to-tested.sh
 ```
-4.
+4.Your task is to write a command that recursively finds all HTML files in the folder and makes a zip with them. Note that your command should work even if the files have spaces (hint: check -d flag for xargs).
 
 ```bash
 $ find . -name "*.html" | xargs -d '\n' tar -czvf archive-name.tar.gz      
