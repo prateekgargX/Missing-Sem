@@ -3,7 +3,7 @@ generate folders foo and bar with a html file.
 To load function into the memory, use:
 
 ```bash
-source ./create-html.sh
+$ source ./create-html.sh
 ```
 
 # [Shell Scripting](https://missing.csail.mit.edu/2020/shell-tools/ "missing-semester")
