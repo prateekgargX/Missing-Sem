@@ -16,7 +16,7 @@ Files are ordered by recency
 Output is colorized  
 
 ```bash
-ls -laht --color
+$ ls -laht --color
 ```
 
 2.Write bash functions marco and polo that do the following. 
@@ -81,14 +81,14 @@ echo "number of runs : $i"
 To run
 
 ```bash
-./test.sh script-to-tested.sh
+$ ./test.sh script-to-tested.sh
 ```
-4. Your task is to write a command that recursively finds all HTML files in the folder and makes a zip with them. Note that your command should work even if the files have spaces (hint: check -d flag for xargs).
+4.Your task is to write a command that recursively finds all HTML files in the folder and makes a zip with them. Note that your command should work even if the files have spaces (hint: check -d flag for xargs).
 
 ```bash
-find . -name "*.html" | xargs -d '\n' tar -czvf archive-name.tar.gz      
+$ find . -name "*.html" | xargs -d '\n' tar -czvf archive-name.tar.gz      
 ```
 To extract the archive
 ```bash
-tar -xzvf archive-name.tar.gz
+$ tar -xzvf archive-name.tar.gz
 ```
